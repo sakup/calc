@@ -13,5 +13,3 @@ window.run()
 
 #comment
 #comment2
-
-#new comment
