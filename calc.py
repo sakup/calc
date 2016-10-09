@@ -18,7 +18,7 @@ class Calc(BoxLayout):
         try:
             self.display.text = str( eval(data) )
         except Exception:
-            self.display.text = 'error'
+            self.display.text = 'error...'
             #self.display.color = (0,0,1,1)
 
 
