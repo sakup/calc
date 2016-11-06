@@ -5,9 +5,9 @@ from kivy.app import App
 from kivy.uix.boxlayout import BoxLayout
 kivy.require ('1.9.1')
 
-class Calc(BoxLayout):
+class CalcLayout(BoxLayout):
     def __init__(self):
-        super(Calc, self).__init__()
+        super(CalcLayout, self).__init__()
 
     def backspace(self, data):
         if data:
@@ -25,6 +25,6 @@ class Calc(BoxLayout):
 class CalcApp(App):
 
     def build(self):
-        return Calc()
+        return CalcLayout()
 
 CalcApp().run()
