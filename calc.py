@@ -19,7 +19,7 @@ class CalcLayout(BoxLayout):
             self.display.text = str( eval(data) )
         except Exception:
             self.display.text = 'error...'
-            self.display.color = (0,0,1,1)
+            #self.display.color = (0,0,1,1)
 
 
 class CalcApp(App):
