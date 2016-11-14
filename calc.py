@@ -13,7 +13,7 @@ class CalcLayout(BoxLayout):
             self.display.text = str( eval(data) )
         except Exception:
             self.display.text = 'error...'
-            
+
 
 class CalcApp(App):
 

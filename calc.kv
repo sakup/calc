@@ -36,25 +36,25 @@
                 id:info
                 text: "Writen by \nPukas Bohdan \n using Python"
 
-
-        GridLayout:
-            rows:5
-            cols:4
-            padding:5
+        BoxLayout:
+            padding:5, 5, 5, 0
             spacing:2
+            size_hint: 1, .2
+
             All_butt:
                 text: 'i'
                 on_press: root.popup.open()
-            All_butt:
-                text: '('
-                on_press: input.text += self.text
-            All_butt:
-                text: ')'
-                on_press: input.text += self.text
+
             All_butt:
                 text: 'C'
                 on_press: input.text = ""
 
+
+        GridLayout:
+            rows:4
+            cols:4
+            padding:5
+            spacing:2
 
             All_butt:
                 text: '7'
